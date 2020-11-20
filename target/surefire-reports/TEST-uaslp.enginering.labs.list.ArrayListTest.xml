@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uaslp.enginering.labs.list.ArrayListTest" time="0.055" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Angel Maldonado\OneDrive - Universidad Autonoma de San Luis Potosi - UASLP\Programación y diseño\POO\Programas\exercise-list-oop-maven\target\test-classes;C:\Users\Angel Maldonado\OneDrive - Universidad Autonoma de San Luis Potosi - UASLP\Programación y diseño\POO\Programas\exercise-list-oop-maven\target\classes;C:\Users\Angel Maldonado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\ANGELM~1\AppData\Local\Temp\surefire4833347728375019193\surefirebooter5161745031777941310.jar C:\Users\Angel Maldonado\AppData\Local\Temp\surefire4833347728375019193 2020-11-20T11-24-37_345-jvmRun1 surefire3501678111764368229tmp surefire_017464629118059139627tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Angel Maldonado\OneDrive - Universidad Autonoma de San Luis Potosi - UASLP\Programación y diseño\POO\Programas\exercise-list-oop-maven\target\test-classes;C:\Users\Angel Maldonado\OneDrive - Universidad Autonoma de San Luis Potosi - UASLP\Programación y diseño\POO\Programas\exercise-list-oop-maven\target\classes;C:\Users\Angel Maldonado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Angel Maldonado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Angel Maldonado"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Angel Maldonado\OneDrive - Universidad Autonoma de San Luis Potosi - UASLP\Programación y diseño\POO\Programas\exercise-list-oop-maven"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ANGELM~1\AppData\Local\Temp\surefire4833347728375019193\surefirebooter5161745031777941310.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="Angel Maldonado"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Angel Maldonado\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANGELM~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.2.3"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Users\Angel Maldonado\OneDrive - Universidad Autonoma de San Luis Potosi - UASLP\Programación y diseño\POO\Programas\exercise-list-oop-maven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\Program Files\Java\jre1.8.0_271;C:\Users\Angel Maldonado\AppData\Local\Microsoft\WindowsApps;;C:\Users\Angel Maldonado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\CLion 2020.2.3\bin;;C:\Users\Angel Maldonado\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="givenAListWith3Elements_whenInsertAtMiddleAfter_thenElementIsInserted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.023"/>
+  <testcase name="givenAListWith3Elements_whenInsertAtBeginningBefore_thenElementIsInserted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0"/>
+  <testcase name="givenNewList_whenAdd_thenElementIsInserted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.004"/>
+  <testcase name="givenAListWith3Elements_whenDeleteNegative_thenDoesNothing" classname="uaslp.enginering.labs.list.ArrayListTest" time="0"/>
+  <testcase name="givenAListWithNoMoreCapacity_whenAdd_thenElementIsInserted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0"/>
+  <testcase name="givenAListWith3Elements_whenInsertAtEndBefore_thenElementIsInserted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+  <testcase name="givenAListWith3Elements_whenDeleteMiddle_thenElementIsDeleted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+  <testcase name="givenAListWith3Elements_whenDeleteOutOfSize_thenDoesNothing" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+  <testcase name="givenAListWith3Elements_whenDeleteLast_thenElementIsDeleted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+  <testcase name="givenAListWith3Elements_whenInsertAtBeginningAfter_thenElementIsInserted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+  <testcase name="givenAListWith3Elements_whenInsertAtMiddleBefore_thenElementIsInserted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+  <testcase name="givenEmptyList_whenGetIterator_thenIteratorIsEmpty" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.002"/>
+  <testcase name="givenListWithOneElement_whenGetIterator_thenIteratorHasOneNext" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+  <testcase name="givenNewList_whenSize_thenZeroIsReturned" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+  <testcase name="givenAListWith3Elements_whenInsertAtEndAfter_thenElementIsInserted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+  <testcase name="givenAListWith3Elements_whenDeleteFirst_thenElementIsDeleted" classname="uaslp.enginering.labs.list.ArrayListTest" time="0.001"/>
+</testsuite>
